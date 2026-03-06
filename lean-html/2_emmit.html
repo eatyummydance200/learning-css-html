@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 1. 자식노드 > -->
+    <!-- 입력 : div>ul>li -->
+    <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- 2. 형제 노드 + -->
+    <!-- 입력 : div+ul+ol+div -->
+    <div>
+      <ul></ul>
+      <ol></ol>
+      <div></div>
+    </div>
+
+    <!-- 3. 반복하기 * -->
+    <!-- 입력 : div>ul>li*3 -->
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- 4. 아이디 > -->
+    <!-- 입력 : span#item -->
+    <!-- 입력 : #item -->
+    <span id="item"></span>
+    <div id="item"></div>
+
+    <!-- 5. 클래스 . -->
+    <!-- 입력 : span.item -->
+    <!-- 입력 : .item -->
+    <span class="title"></span>
+    <div class="title"></div>
+
+    <!-- 6. 콘텐츠 {} -->
+    <!-- 입력 : p.container{hello world} -->
+    <p class="container">hello world</p>
+
+    <!-- 7. 넘버링 $ -->
+    <!-- 입력 : p.container{item$}*5 -->
+    <p class="container">item1</p>
+    <p class="container">item2</p>
+    <p class="container">item3</p>
+    <p class="container">item4</p>
+    <p class="container">item5</p>
+  </body>
+</html>
